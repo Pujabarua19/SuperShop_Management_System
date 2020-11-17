@@ -1,0 +1,130 @@
+body {
+
+    background: url("../images/Hobby_Background.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: 0 auto;
+}
+.container {
+
+    margin: 25px auto;
+    width: 900px;
+    margin-top: 140px;
+}
+
+.content {
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 25px 0 0;
+    background: radial-gradient( #799DAB, #0e5a6f);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 1px 0 #fff inset;
+
+
+}
+
+.content h1 {
+
+    font-family: SansSerif,Arial;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #041435;
+    margin-bottom: 20px;
+    letter-spacing: 0.09em;
+    border-radius: 0 0 20px 20px;
+    background-color: #2B6C7F;
+    border: 1px solid #6f99a4;
+    padding: 5px;
+}
+.wrapper {
+
+    background: #eae7e7;
+    width: 300px ;
+    height: 45px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    box-shadow: inset 0 0 6px #000000;
+}
+
+
+.wrapper input {
+
+    width: 300px;
+    height: 45px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #333;
+    padding: 10px;
+}
+
+.hobie {
+
+    padding: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.hobie span {
+
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.hobie input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #333;
+    padding: 5px;
+    font-weight: bolder;
+
+}
+
+input[type="submit"]{
+
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    border: 0;
+    outline: none;
+    background: rgb(254,231,154);
+    background: -webkit-linear-gradient(#125061 0%,#101010 100%);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.8)inset;
+    cursor: pointer;
+    color: white;
+    font-family: sans-serif,Arial;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover{
+
+    background: -webkit-linear-gradient(#101010 0%,#125061 100%);
+}
+
+.msg{
+
+    font-size: 17px;
+    color: red;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+

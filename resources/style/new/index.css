@@ -1,0 +1,134 @@
+
+.deck {
+    width:840px;
+    height:350px;
+    position:relative;
+    margin:0 auto;
+    transform:translateY(-60px);
+
+}
+.card {
+    background: radial-gradient(#FFF176,#F57F17);
+    width:200px;
+    height:300px;
+    border-radius:6px;
+    border:7px solid gold;
+    box-shadow: 0 0 7px rgba(0,0,0,0.4);
+    position:absolute;
+    transition:0.2s;
+    cursor:pointer;
+}
+.title {
+    width:100%;
+    height:36px;
+    margin:7px auto;
+    position:absolute;
+    bottom:0;
+    text-align:center;
+    font-family:Arial;
+    color:gold;
+    font-weight:bold;
+    line-height:35px;
+    vertical-align:center;
+}
+
+.title a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.title a:hover{
+
+    text-decoration: none;
+    color: red;
+}
+
+.pic {
+    background-image: url("../../images/source.gif");
+    width:84%;
+    height:140px;
+    margin:0 ;
+    border:4px solid gold;
+    position:absolute;
+    bottom:50px;
+    left:6%;
+    background-size:cover;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.4);
+}
+.cir {
+    width:50px;
+    height:50px;
+    background-color:blue;
+    left:5%;
+    position:absolute;
+    /*bottom:2px;*/
+    z-index:3;
+    border-radius:100%;
+}
+.five{
+    transform:translate(520px,-40px) rotate(-30deg);
+}
+.five:hover{
+    transform:translate(530px,-20px) rotate(-30deg);
+}
+.four{
+    transform:translate(410px,0)rotate(-15deg);
+}
+.four:hover{
+    transform:translate(415px,23px)rotate(-15deg);
+}
+.three{
+    transform:translate(300px,20px);
+}
+.three:hover{
+    transform:translate(300px,45px);
+}
+.two{
+    transform:translate(200px,0)rotate(20deg);
+}
+.two:hover{
+    transform:translate(190px,25px)rotate(20deg);
+}
+.one{
+    transform:translate(100px,-50px)rotate(35deg);
+}
+.one:hover{
+    transform:translate(80px,-25px)rotate(35deg);
+}
+
+
+
+
+table * {
+    position: relative;
+}
+table td, table th {
+    padding-left: 24px;
+}
+table thead tr {
+    height: 60px;
+    background: radial-gradient(#FFF176,#F57F17);
+    font-size: 16px;
+}
+table tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #E3F1D5;
+}
+table tbody tr:last-child {
+    border: 0;
+}
+table td, table th {
+    text-align: left;
+}
+table td.l, table th.l {
+    text-align: right;
+}
+table td.c, table th.c {
+    text-align: center;
+}
+table td.r, table th.r {
+    text-align: center;
+}
+

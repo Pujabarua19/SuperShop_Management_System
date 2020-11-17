@@ -1,0 +1,209 @@
+body{
+    background-image: url("../../resources/images/Background-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.nav{
+
+    margin: 20px;
+}
+
+.nav li {
+
+    font-size: 17px;
+    background: radial-gradient(#005AF0,w);
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: none;
+}
+
+.group-name{
+    font-family: "Tempus Sans ITC";
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.col-sm-8{
+    background-image: url("../../resources/images/Border-1.jpg");
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px inset #005EE9;
+
+}
+
+
+
+
+
+
+
+h1 {
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.logo{
+
+    margin-top: 100px;
+}
+
+h1 span {
+
+    color: #262626;
+    background: #fff;
+    padding: 10px 20px;
+    font-weight: bolder;
+    display: table-cell;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc;
+    animation: animate .5s infinite;
+}
+
+@keyframes animate {
+
+    0% {
+
+        transform: translateY(0px);
+        box-shadow: inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc,0 15px 5px rgba(0,0,0,0) ;
+    }
+
+    50% {
+
+        transform: translateY(-20px);
+        box-shadow: inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc,0 15px 5px rgba(0,0,0,.6) ;
+    }
+
+    100% {
+
+        transform: translateY(0px);
+        box-shadow: inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc,0 15px 5px rgba(0,0,0,0) ;
+    }
+
+}
+
+h1 span:nth-child(1){
+
+    animation-delay: .2s;
+}
+
+h1 span:nth-child(2){
+
+    animation-delay: .4s;
+}
+
+h1 span:nth-child(3){
+
+    animation-delay: .6s;
+}
+
+h1 span:nth-child(4){
+
+    animation-delay: .8s;
+}
+
+h1 span:nth-child(5){
+
+    animation-delay: 1s;
+}
+
+h1 span:nth-child(6){
+
+    animation-delay: 1.2s;
+}
+
+h1 span:nth-child(7){
+
+    animation-delay: 1.4s;
+}
+
+h1 span:nth-child(8){
+
+    animation-delay: 1.6s;
+}
+h1 span:nth-child(9){
+
+    animation-delay: 1.8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid h2{
+    font-family: "Tempus Sans ITC";
+    font-weight: bold;
+    border: 1px inset #005EE9;
+    background-color: #222325;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    background-image: url("../../resources/images/Border-2.jpg");
+
+}
+
+.Group-member{
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.member ul li{
+    font-family: "Tempus Sans ITC";
+    border: 1px  #005EE9;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    list-style: none;
+    border-radius: 30px;
+    letter-spacing: 0.09em;
+    background-image: url("../../resources/images/Background-5.gif");
+    box-shadow: 0 0 15px  #2b76b7;
+    text-transform: uppercase;
+}
+
+.member ul li:hover{
+    color: ghostwhite;
+    transition: .5s;
+}
+
+.container-fluid h3{
+
+    color: lavenderblush;
+    border: 1px outset #005EE9;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    margin-top: 10px;
+    font-family: "Tempus Sans ITC";
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-image: url("../../resources/images/Background-5.gif");
+}
+
+
+
